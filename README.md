@@ -83,10 +83,6 @@ status - Check bot status [FOR ADMINS USE ONLY].
 
 
 
-### ❤️ RESPECTING ❤️
-- [JishuDeveloper](https://github.com/JishuDeveloper)
-- [Madflix Official](https://github.com/jishusinha) 
-- [lntechnical](https://github.com/lntechnical2)
 
 ### 😍 BOTS CHANNEL 😍
 - [RDX BotS](https://t.me/RDX_PVT_LTD)
