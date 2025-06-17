@@ -47,7 +47,7 @@
         },
         "DATABASE_NAME":{ 
             "description":"Your Mongo DB Database Name ",
-            "value": "MadflixBotz",
+            "value": "RDX",
             "required": false
         },
         "START_PIC": {
