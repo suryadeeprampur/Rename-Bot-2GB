@@ -45,7 +45,7 @@ class Txt(object):
 ╭───────────────⍟
 ├<b>🤖 My Name</b> : {}
 ├<b>🖥️ Developer</b> : <a href=https://t.me/MadflixBotz>MadflixBotz</a> 
-├<b>👨‍💻 Programer</b> : <a href=https://t.me/MadflixSupport>Jishu Developer</a>
+├<b>👨‍💻 Programer</b> : <a href=https://t.me/MadflixSupport>RDX Developer</a>
 ├<b>📕 Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├<b>✏️ Language</b> : <a href=https://www.python.org>Python 3</a>
 ├<b>💾 Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
