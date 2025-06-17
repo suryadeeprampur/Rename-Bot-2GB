@@ -115,7 +115,7 @@ jishubotz = Database(Config.DATABASE_URL, Config.DATABASE_NAME)
 
 
 
-# Jishu Developer 
+# RDX Developer 
 # Don't Remove Credit 🥺
 # Telegram Channel @RDX_PVT_LTD
 # Backup Channel @RDX_PVT_LTD
