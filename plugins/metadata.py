@@ -59,9 +59,10 @@ async def query_metadata(bot: Client, query: CallbackQuery):
 
 
 
-# Jishu Developer 
+# RDX Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @MadflixBotz
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
-# Contact @MadflixSupport
+# Telegram Channel @RDX_PVT_LTD
+# Backup Channel @RDX_PVT_LTD
+# Developer @RDX1444
+# Contact @RDX_PVT_LTD
+
