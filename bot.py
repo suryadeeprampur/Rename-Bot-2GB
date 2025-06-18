@@ -49,13 +49,7 @@ class Bot(Client):
             except:
                 print("Please Make This Is Admin In Your Log Channel")
 
-import asyncio
-
-if __name__ == "__main__":
-    bot = Bot()
-    asyncio.run(bot.start())
-    idle()
-
+Bot().run()
 
 
 
