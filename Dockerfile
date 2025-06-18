@@ -1,5 +1,10 @@
+
+
+
 FROM python:3.10
+
+# Your Docker setup goes here
+COPY . /app
 WORKDIR /app
-COPY . /app/
-RUN pip3 install -r requirements.txt
-CMD ["python3", "bot.py"]
+RUN pip install -r requirements.txt
+CMD ["python", "bot.py"]
