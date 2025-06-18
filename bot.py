@@ -53,7 +53,35 @@ Bot().run()
 
 
 
+from pyrogram import Client
+import asyncio
 
+class Bot(Client):
+    def __init__(self):
+        super().__init__(
+            name="renamer",
+            api_id=Config.API_ID,
+            api_hash=Config.API_HASH,
+            bot_token=Config.BOT_TOKEN,
+            workers=50,
+            plugins={"root": "plugins"},
+        )
+
+    async def start_bot(self):
+        await self.start()
+        print("𝐑𝐃𝐗 Is Started.....✨️")
+        await idle()  # keeps the bot running
+
+    async def stop_bot(self):
+        await self.stop()
+        print("Bot Stopped.")
+
+if __name__ == "__main__":
+    bot = Bot()
+    try:
+        asyncio.run(bot.start_bot())
+    except KeyboardInterrupt:
+        asyncio.run(bot.stop_bot())
 
 
 
