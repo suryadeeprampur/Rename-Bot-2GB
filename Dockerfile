@@ -1,10 +1,14 @@
-
-
-
 FROM python:3.10
 
-# Your Docker setup goes here
-COPY . /app
 WORKDIR /app
-RUN pip install -r requirements.txt
-CMD ["python", "bot.py"]
+
+# Install dependencies including ffmpeg
+RUN apt update && apt install -y ffmpeg
+
+COPY . /app/
+
+RUN pip3 install -r requirements.txt
+
+CMD ["python3", "bot.py"]
+
+
