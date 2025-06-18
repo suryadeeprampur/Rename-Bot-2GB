@@ -2,8 +2,8 @@ FROM python:3.10
 
 WORKDIR /app
 
-# Install dependencies including ffmpeg
-RUN apt update && apt install -y ffmpeg
+# Install ffmpeg
+RUN apt update && apt install -y ffmpeg && apt clean && rm -rf /var/lib/apt/lists/*
 
 COPY . /app/
 
