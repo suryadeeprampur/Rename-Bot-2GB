@@ -1,12 +1,13 @@
 from datetime import datetime
 from pytz import timezone
-from pyrogram import Client, __version__
+from pyrogram import Client, __version__, idle  # ✅ THIS LINE is important
 from pyrogram.raw.all import layer
 from config import Config
 from aiohttp import web
 from route import web_server
 import pyromod
 import pyrogram.utils
+import asyncio
 
 pyrogram.utils.MIN_CHANNEL_ID = -100999999999999
 
