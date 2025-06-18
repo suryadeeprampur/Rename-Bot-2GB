@@ -105,7 +105,18 @@ For Example :-
 
 
 
+FROM python:3.10
 
+WORKDIR /app
+COPY . /app/
+
+# Install dependencies
+RUN apt-get update && apt-get install -y ffmpeg
+
+# Install Python requirements
+RUN pip3 install -r requirements.txt
+
+CMD ["python3", "bot.py"]
 
 
 
